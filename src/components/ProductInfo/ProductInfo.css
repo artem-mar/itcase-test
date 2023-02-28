@@ -33,6 +33,11 @@
   border-radius: 4px;
 }
 
+.btn-group__btn:hover {
+  cursor: pointer;
+  background-color: #8a8a8a;
+}
+
 .btn-group__btn_active {
   background-color: #3f3f3f;
   color: #fff;
