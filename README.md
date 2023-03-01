@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/1f51a34e1576ecb2a3ca/maintainability)](https://codeclimate.com/github/artem-mar/itcase-test/maintainability)
 # Задача:
 
 Сделать две страницы каталога товаров:
