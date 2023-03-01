@@ -36,3 +36,9 @@
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
 }
+
+@media (max-width: 576px) {
+  .card {
+    width: 150px;
+  }
+}

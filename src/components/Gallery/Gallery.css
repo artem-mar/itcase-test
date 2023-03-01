@@ -2,15 +2,9 @@
   margin-left: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
   max-width: 300px;
-}
-
-@media (max-width: 576px) {
-  .gallery {
-    margin: auto;
-  }
 }
 
 .gallery__img {
@@ -40,4 +34,19 @@
 .control__button:hover {
   cursor: pointer;
   opacity: .5;
+}
+
+@media (max-width: 576px) {
+  .gallery {
+    margin: auto;
+    align-items: center;
+  }
+
+  .gallery__img {
+    width: 70%;
+  }
+
+  .gallery__controls {
+    width: 70%;
+  }
 }
