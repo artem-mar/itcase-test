@@ -9,8 +9,8 @@ const ProductCard = (product: IProduct) => {
 
   return (
     <Link to={genLink()} className="card">
-      <span className="title">{name}</span>
-      <img className="img" alt="фото продукта" src={colors[0].images[0]} />
+      <span className="card__title">{name}</span>
+      <img className="card__img" alt="фото продукта" src={colors[0].images[0]} />
     </Link>
   );
 }
