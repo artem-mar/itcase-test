@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.title::after {
+.card__title::after {
   display: block;
 	position: absolute;
 	left: 0;
@@ -26,7 +26,7 @@
 	transition: width 0.3s ease-out;
 }
 
-.card:hover .title::after {
+.card:hover .card__title::after {
   width: 100%;
 }
 
